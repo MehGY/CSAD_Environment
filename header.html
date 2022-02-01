@@ -1,15 +1,24 @@
 <body>
-    <div id="navbar">
-        <a href="index.php">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a onclick="document.getElementById('id01').style.display='block'" style="float: right;">Sign Up</a>
-    </div>
+    <nav class="navbar navbar-default" style="background-color: #009966; margin: 0px; border: none; border-radius: 0px">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="color: white">CSAD</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.php" style="color: white">Home</a></li>
+                <li><a href="#news" style="color: white">News</a></li>
+                <li><a href="#contact" style="color: white">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav" style="float: right">
+                <li><a onclick="document.getElementById('id01').style.display='block'" style="color: white">Sign Up</a></li>
+            </ul> 
+        </div>
+    </nav>
 
     <div class="hero-image">
       <div class="hero-text">
-        <h1 style="font-size:50px">Welcome to our website!</h1>
-        <p>Dabi dabi doo dabi dabi dabi dooo</p>
-        <button type="button">IDK</button>
+        <h1 style="font-size:50px">Save our future!</h1>
+        <p>Global warming is getting worse year by year</p>
+        <button type="button">Learn More</button>
       </div>
     </div>

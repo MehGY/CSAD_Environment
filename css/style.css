@@ -7,39 +7,31 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : gywon
 */
 
+body, html {
+    background-color: white;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .title {
-    font-family: "Georgia", serif;
-    font-size: 1.5em;
-    color: white;
+    font-family: "Verdana", sans-serif;
+    font-weight: bold;
+    color: black;
     margin-left: 50px;
     margin-right: 50px;
-    text-align: left;
+    text-align: center;
 }
 
 .details {
-    font-family: "Courier New", monospace;
-    color: white;
+    font-family: "Arial", sans-serif;
+    color: black;
     margin-left: 50px;
     margin-right: 50px;
-    text-align: left;
+    text-align: center;
 }
 
 /* -------------------------------------------------Gallery---------------------------------------------------------------- */
-/* Three columns side by side */
-.column {
-  float: left;
-  width: 30%;
-  margin-bottom: 16px;
-  margin-left: 25px;
-  padding: 0 8px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
@@ -53,18 +45,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: white !important;
-}
-
-/* Some left and right padding inside the container */
-.container {
-  padding: 0 16px;
-}
-
-/* Clear floats */
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .button {
@@ -84,13 +64,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 }
 
 /* -------------------------------------------------------------- Hero Image -----------------------------------------------------*/
-
-body, html {
-    background-color: #333333;
-    height: 100%;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Hero.jpg");
@@ -193,31 +166,14 @@ body, html {
 
 /* ---------------------------------------------------------------Nav Bars------------------------------------------------------------------------- */
 
-#navbar {
-  background-color: #333;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  display: block;
-  transition: top 0.3s;
-  border-bottom: 2px solid black;
-  z-index: 1;
+li a:hover{
+    background-color: #006666 !important;
+    cursor: pointer;
 }
 
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-#navbar a:hover {
-  background-color: #ddd;
-  cursor: pointer;
-  color: black;
+a.navitem{
+    background-color: #006666 !important;
+    cursor: pointer;
 }
 
 /* ---------------------------------------- sign up ---------------------------------------------------------------- */
@@ -307,13 +263,6 @@ hr {
 .close:focus {
   color: #f44336;
   cursor: pointer;
-}
-
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 /* Change styles for cancel button and signup button on extra small screens */
