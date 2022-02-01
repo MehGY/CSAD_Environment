@@ -33,6 +33,16 @@ body, html {
 
 /* -------------------------------------------------Gallery---------------------------------------------------------------- */
 
+#crop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 30%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
   .column {
@@ -45,6 +55,18 @@ body, html {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: white !important;
+}
+
+.card div.container {
+    padding: 0 16px;
+}
+
+.container p {
+    display: block;
+    width: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .button {
@@ -254,14 +276,12 @@ hr {
   position: absolute;
   right: 35px;
   top: 15px;
-  font-size: 40px;
   font-weight: bold;
-  color: #f1f1f1;
 }
 
 .close:hover,
 .close:focus {
-  color: #f44336;
+  color: #ccc !important;
   cursor: pointer;
 }
 
