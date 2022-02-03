@@ -187,7 +187,7 @@ a.navitem{
 
 /* ---------------------------------------- sign up ---------------------------------------------------------------- */
 /* Full-width input fields */
-input[type=text], input[type=password] {
+.signForm {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -197,7 +197,7 @@ input[type=text], input[type=password] {
 }
 
 /* Add a background color when the inputs get focus */
-input[type=text]:focus, input[type=password]:focus {
+.signForm:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -321,5 +321,55 @@ hr {
     overflow: hidden;
     white-space: normal;
     text-overflow: ellipsis;
+}
+
+.tag:hover {
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+}
+
+#filters {
+    display: block;
+    overflow: hidden;
+    background-color: #99ccff;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#filters input {
+    margin-bottom: 10px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+}
+
+#filters input:focus {
+    outline: none;
+    background: #cccccc;
+}
+
+.pageNum {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    float: left;
+    cursor: pointer;
+    border: solid #cccccc 1px;
+    border-radius: 5px;
+}
+
+#currentPage {
+    font-weight: bold;
+    color: #0066cc;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    float: left;
+    cursor: default;
+    background-color: #ccccff;
+    border: solid #cccccc 1px;
+    border-radius: 5px;
 }
 
