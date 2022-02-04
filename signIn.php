@@ -4,7 +4,7 @@
         <form class="modal-content" action="/action_page.php">
             <div style="padding-right: 20px; padding-left: 20px">
                 <h1>Sign In</h1>
-                <p>Please fill in this form to login.</p>
+                <p id="message">Please fill in this form to login.</p>
                 <hr>
                 <label for="email"><b>Email</b></label>
                 <input class="signForm" type="text" placeholder="Enter Email" name="email" required>

@@ -1,6 +1,6 @@
 <html lang="en">
     <header>
-        <title>CSAD</title>
+        <title>Forum</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link link rel="stylesheet" type="text/css" href="css/style.css">
@@ -13,7 +13,7 @@
     <!-- List of questions  -->
     <div class="col-sm-6" style="margin-left: 60px; margin-right: 30px">
         <h2>All Questions</h2>
-        <button class="btn btn-primary" style="float: right">Ask a question</button>
+        <button type="button" onclick="askQn()" class="btn btn-primary" style="float: right">Ask a question</button>
         <p style="clear: both"></p>
         
         <!-- Questions (each one starts with class="forumbox") -->
@@ -139,7 +139,7 @@
         </div>
         <div>
             <p id="currentPage">1</p> <p class="pageNum">2</p> <p class="pageNum">3</p> <p class="pageNum">4</p> <p class="pageNum">5</p> <p style="float:left; margin-left: 10px; margin-top: 13px">...</p>
-            <span class="glyphicon glyphicon-circle-arrow-right" style="margin-top: 13px; margin-left: 10px; cursor: pointer;"></span>
+            <button type="button" class="pageNum" style="float: right">Next</button>
         </div>
     </div>
     
@@ -209,6 +209,19 @@
     </div>
     <?php include 'signIn.php'; ?>
     <?php include 'signUp.php'; ?>
+    <script>
+        var loggedIn = false;
+        
+        function askQn() {
+            if (loggedIn == false) {
+                document.getElementById('id02').style.display='block';
+                document.getElementById("message").innerHTML = "You must login before you can start asking questions.";
+            }
+            else {
+                window.location.href = 'forumQn.php';
+            }
+        }
+    </script>
     </body>
     <?php include 'footer.html'; ?>
 </html>

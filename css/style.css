@@ -1,12 +1,3 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
-/* 
-    Created on : 27 Jan, 2022, 11:03:51 AM
-    Author     : gywon
-*/
-
 body, html {
     background-color: white;
     height: 100%;
@@ -355,9 +346,13 @@ hr {
     padding-right: 10px;
     margin: 10px;
     float: left;
-    cursor: pointer;
     border: solid #cccccc 1px;
     border-radius: 5px;
+}
+
+.pageNum:hover {
+    background-color: #999;
+    cursor: pointer;
 }
 
 #currentPage {

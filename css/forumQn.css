@@ -1,0 +1,192 @@
+/* ---------------------------------------------------------------Nav Bars------------------------------------------------------------------------- */
+
+li a:hover{
+    background-color: #006666 !important;
+    cursor: pointer;
+}
+
+a.navitem{
+    background-color: #006666 !important;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------- sign up ---------------------------------------------------------------- */
+/* Full-width input fields */
+.signForm {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+.signForm:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px !important;
+  background-color: #f44336 !important;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left !important;
+  width: 50% !important;
+}
+
+/* Set a style for all buttons */
+.clearfix button { 
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.clearfix button:hover {
+  opacity:1;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto !important; /* Enable scroll if needed */
+  background-color: hsla(120, 0%, 0%, 0.3);
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #ccc !important;
+  cursor: pointer;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+/* ---------------------------------------------------------------forum question------------------------------------------------------------------------- */
+#voteUp {
+    margin-top: 20px;
+    float: start;
+    font-size: 30px;
+}
+
+.glyphicon-bookmark:hover,
+#voteDown:hover,
+#voteUp:hover {
+    cursor: pointer;
+}
+
+.glyphicon-bookmark:active,
+#voteDown:active,
+#voteUp:active {
+    color: #ff9900;
+}
+
+#voteDown {
+    float: start;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.glyphicon-bookmark {
+    margin-left: 6px;
+    margin-top: 10px;
+    float: top;
+    font-size: 20px;
+}
+
+.qnProfile {
+    float: left; 
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 0px;
+    width: 40px; 
+    height: auto; 
+    white-space: pre-line;
+}
+
+.glyphicon-share-alt,
+.glyphicon-flag,
+.glyphicon-comment {
+    margin-right: 10px;
+    position: absolute;
+    bottom: 0px;
+    float: right;
+    font-size: 15px;
+}
+
+.glyphicon-comment:hover,
+.glyphicon-share-alt:hover,
+.glyphicon-flag:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#qnRow {
+    border: solid #ccc 1px;
+    background-color: #ccccff;
+}
+
+.tag {
+    border: none;
+    border-radius: 5px;
+    background: #99ccff;
+    color: #003366;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 5px;
+    display: inherit;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+}
+
+.tag:hover {
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+}
