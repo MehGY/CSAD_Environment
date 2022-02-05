@@ -1,3 +1,18 @@
+.mouse:hover {
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------Footer------------------------------------------------------------------*/
+
+.footLink {
+    color: white;
+}
+
+.footLink:hover {
+    cursor: pointer;
+    color: #ccc;
+}
+
 /* ---------------------------------------------------------------Nav Bars------------------------------------------------------------------------- */
 
 li a:hover{
@@ -105,6 +120,15 @@ hr {
 }
 
 /* ---------------------------------------------------------------forum question------------------------------------------------------------------------- */
+.forumbox {
+    display: block;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
 #voteUp {
     margin-top: 20px;
     float: start;
@@ -147,6 +171,18 @@ hr {
     white-space: pre-line;
 }
 
+.qnName {
+    float: left; 
+    margin-top: 16px;
+}
+
+.time {
+    float: right;
+    margin-top: 16px;
+    margin-left: 10px;
+    color: hsla(120, 0%, 0%, 0.3);
+}
+
 .glyphicon-share-alt,
 .glyphicon-flag,
 .glyphicon-comment {
@@ -157,6 +193,16 @@ hr {
     font-size: 15px;
 }
 
+#commentUp,
+#commentDown {
+    margin-right: 10px;
+    bottom: 0px;
+    float: right;
+    font-size: 15px;
+}
+
+#commentUp:hover,
+#commentDown:hover,
 .glyphicon-comment:hover,
 .glyphicon-share-alt:hover,
 .glyphicon-flag:hover {
@@ -164,6 +210,7 @@ hr {
     color: white;
 }
 
+#commentRow,
 #qnRow {
     border: solid #ccc 1px;
     background-color: #ccccff;
@@ -189,4 +236,10 @@ hr {
     background-color: #0066cc;
     color: white;
     cursor: pointer;
+}
+
+.btn:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
 }

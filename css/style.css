@@ -29,6 +29,18 @@ body, html {
     cursor: pointer;
 }
 
+/* ------------------------------------------------------Footer------------------------------------------------------------------*/
+
+.footLink {
+    color: white;
+}
+
+.footLink:hover {
+    cursor: pointer;
+    outline: none;
+    color: #ccc;
+}
+
 /* -------------------------------------------------Gallery---------------------------------------------------------------- */
 
 #crop {
@@ -294,7 +306,9 @@ hr {
     color: hsla(120, 0%, 0%, 0.3);
 }
 
-#votes {
+.glyphicon-comment,
+.glyphicon-arrow-up,
+.glyphicon-arrow-down {
     float: right;
     bottom: 0px;
     display: inherit;
@@ -327,18 +341,6 @@ hr {
     border-radius: 10px;
     color: white;
     margin-bottom: 10px;
-}
-
-#filters input {
-    margin-bottom: 10px;
-    border: none;
-    color: black;
-    border-radius: 5px;
-}
-
-#filters input:focus {
-    outline: none;
-    background: #cccccc;
 }
 
 .pageNum {

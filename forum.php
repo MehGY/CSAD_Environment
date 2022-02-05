@@ -25,9 +25,9 @@
             <p id="cardDetails">I've heard a lot of mixed responses when asking about nuclear power. Some say it good, some say it bad. What are the good and bad about nuclear power?</p>
             <p class="tag">Nuclear</p>
             <p style="clear: both"></p>
-            <p id="votes" style="margin-left: 5px">59</p><span id="votes" class="glyphicon glyphicon-arrow-up" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">-3</p><span id="votes" class="glyphicon glyphicon-arrow-down" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">109</p><span id="votes" class="glyphicon glyphicon-comment"></span>
+            <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">59</span>
+            <span class="glyphicon glyphicon-arrow-down" style="margin-left: 10px">-3</span>
+            <span class="glyphicon glyphicon-comment">109</span>
         </div>
         <div class="forumbox">
             <p id="cardDetails" style="float: left">Asked by Mayazzz</p> 
@@ -37,9 +37,9 @@
             <p id="cardDetails">For years, the government has done nothing to reduce our carbon footprint, overlook coal companies and essentially tax people for being environmentally friendly??? WTF australia</p>
             <p class="tag">Politics</p> <p class="tag">CO2 emissions</p>
             <p style="clear: both"></p>
-            <p id="votes" style="margin-left: 5px">209</p><span id="votes" class="glyphicon glyphicon-arrow-up" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">-46</p><span id="votes" class="glyphicon glyphicon-arrow-down" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">2k</p><span id="votes" class="glyphicon glyphicon-comment"></span>
+            <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">209</span>
+            <span class="glyphicon glyphicon-arrow-down" style="margin-left: 10px">-46</span>
+            <span class="glyphicon glyphicon-comment">2k</span>
         </div>
         <div class="forumbox">
             <p id="cardDetails" style="float: left">Asked by Kim</p> 
@@ -49,9 +49,9 @@
             <p id="cardDetails">Recently, there has been a lot of debate about these things called NFTs and I'm very confused as to what they are. But I've seen people claiming that NFTs harm the environment. Could someone enlighten me?</p>
             <p class="tag">NFT</p> <p class="tag">Pollution</p>
             <p style="clear: both"></p>
-            <p id="votes" style="margin-left: 5px">122</p><span id="votes" class="glyphicon glyphicon-arrow-up" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">-10</p><span id="votes" class="glyphicon glyphicon-arrow-down" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">1.2k</p><span id="votes" class="glyphicon glyphicon-comment"></span>
+            <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">122</span>
+            <span class="glyphicon glyphicon-arrow-down" style="margin-left: 10px">-10</span>
+            <span class="glyphicon glyphicon-comment">1.2k</span>
         </div>
         <div class="forumbox">
             <p id="cardDetails" style="float: left">Asked by Annon</p> 
@@ -61,9 +61,9 @@
             <p id="cardDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
             <p class="tag">Charity</p> <p class="tag">Donation</p>
             <p style="clear: both"></p>
-            <p id="votes" style="margin-left: 5px">2k</p><span id="votes" class="glyphicon glyphicon-arrow-up" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">-34</p><span id="votes" class="glyphicon glyphicon-arrow-down" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">1.4k</p><span id="votes" class="glyphicon glyphicon-comment"></span>
+            <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">2k</span>
+            <span class="glyphicon glyphicon-arrow-down" style="margin-left: 10px">-34</span>
+            <span class="glyphicon glyphicon-comment">1.4k</span>
         </div>
         <div class="forumbox">
             <p id="cardDetails" style="float: left">Asked by Annon</p> 
@@ -73,9 +73,9 @@
             <p id="cardDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
             <p class="tag">Charity</p> <p class="tag">Donation</p>
             <p style="clear: both"></p>
-            <p id="votes" style="margin-left: 5px">2k</p><span id="votes" class="glyphicon glyphicon-arrow-up" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">-34</p><span id="votes" class="glyphicon glyphicon-arrow-down" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">1.4k</p><span id="votes" class="glyphicon glyphicon-comment"></span>
+            <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">2k</span>
+            <span class="glyphicon glyphicon-arrow-down" style="margin-left: 10px">-34</span>
+            <span class="glyphicon glyphicon-comment">1.4k</span>
         </div>
         <div class="forumbox">
             <p id="cardDetails" style="float: left">Asked by Annon</p> 
@@ -85,9 +85,9 @@
             <p id="cardDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
             <p class="tag">Charity</p> <p class="tag">Donation</p>
             <p style="clear: both"></p>
-            <p id="votes" style="margin-left: 5px">2k</p><span id="votes" class="glyphicon glyphicon-arrow-up" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">-34</p><span id="votes" class="glyphicon glyphicon-arrow-down" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">1.4k</p><span id="votes" class="glyphicon glyphicon-comment"></span>
+            <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">2k</span>
+            <span class="glyphicon glyphicon-arrow-down" style="margin-left: 10px">-34</span>
+            <span class="glyphicon glyphicon-comment">1.4k</span>
         </div>
         <div class="forumbox">
             <p id="cardDetails" style="float: left">Asked by Annon</p> 
@@ -97,9 +97,9 @@
             <p id="cardDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
             <p class="tag">Charity</p> <p class="tag">Donation</p>
             <p style="clear: both"></p>
-            <p id="votes" style="margin-left: 5px">2k</p><span id="votes" class="glyphicon glyphicon-arrow-up" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">-34</p><span id="votes" class="glyphicon glyphicon-arrow-down" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">1.4k</p><span id="votes" class="glyphicon glyphicon-comment"></span>
+            <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">2k</span>
+            <span class="glyphicon glyphicon-arrow-down" style="margin-left: 10px">-34</span>
+            <span class="glyphicon glyphicon-comment">1.4k</span>
         </div>
         <div class="forumbox">
             <p id="cardDetails" style="float: left">Asked by Annon</p> 
@@ -109,9 +109,9 @@
             <p id="cardDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
             <p class="tag">Charity</p> <p class="tag">Donation</p>
             <p style="clear: both"></p>
-            <p id="votes" style="margin-left: 5px">2k</p><span id="votes" class="glyphicon glyphicon-arrow-up" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">-34</p><span id="votes" class="glyphicon glyphicon-arrow-down" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">1.4k</p><span id="votes" class="glyphicon glyphicon-comment"></span>
+            <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">2k</span>
+            <span class="glyphicon glyphicon-arrow-down" style="margin-left: 10px">-34</span>
+            <span class="glyphicon glyphicon-comment">1.4k</span>
         </div>
         <div class="forumbox">
             <p id="cardDetails" style="float: left">Asked by Annon</p> 
@@ -121,9 +121,9 @@
             <p id="cardDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
             <p class="tag">Charity</p> <p class="tag">Donation</p>
             <p style="clear: both"></p>
-            <p id="votes" style="margin-left: 5px">2k</p><span id="votes" class="glyphicon glyphicon-arrow-up" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">-34</p><span id="votes" class="glyphicon glyphicon-arrow-down" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">1.4k</p><span id="votes" class="glyphicon glyphicon-comment"></span>
+            <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">2k</span>
+            <span class="glyphicon glyphicon-arrow-down" style="margin-left: 10px">-34</span>
+            <span class="glyphicon glyphicon-comment">1.4k</span>
         </div>
         <div class="forumbox">
             <p id="cardDetails" style="float: left">Asked by Annon</p> 
@@ -133,9 +133,9 @@
             <p id="cardDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
             <p class="tag">Charity</p> <p class="tag">Donation</p>
             <p style="clear: both"></p>
-            <p id="votes" style="margin-left: 5px">2k</p><span id="votes" class="glyphicon glyphicon-arrow-up" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">-34</p><span id="votes" class="glyphicon glyphicon-arrow-down" style="margin-left: 10px"></span>
-            <p id="votes" style="margin-left: 5px">1.4k</p><span id="votes" class="glyphicon glyphicon-comment"></span>
+            <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">2k</span>
+            <span class="glyphicon glyphicon-arrow-down" style="margin-left: 10px">-34</span>
+            <span class="glyphicon glyphicon-comment">1.4k</span>
         </div>
         <div>
             <p id="currentPage">1</p> <p class="pageNum">2</p> <p class="pageNum">3</p> <p class="pageNum">4</p> <p class="pageNum">5</p> <p style="float:left; margin-left: 10px; margin-top: 13px">...</p>
@@ -184,9 +184,9 @@
                     <div class="col-sm-6">
                         <h4 style="margin-bottom: 0px">Filter by tags</h4>
                         <p style="margin-bottom: 0px">Exclude following tags</p>
-                        <input type="text" style="margin-bottom: 10px" placeholder="Eg.Global Warming">
+                        <input type="text" class="form-control" style="margin-bottom: 10px" placeholder="Eg.Global Warming">
                         <p style="margin-bottom: 0px">Include following tags</p>
-                        <input type="text" style="margin-bottom: 10px" placeholder="Eg.Global Warming">
+                        <input type="text" class="form-control" style="margin-bottom: 10px" placeholder="Eg.Global Warming">
                     </div>
                 </div>
                 <hr>
