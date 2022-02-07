@@ -70,7 +70,7 @@
         </div>
         <?php include 'signUp.php'; ?>
         <?php include 'signIn.php'; ?>
+        <?php include 'footer.html'; ?>
     </body>
-    <?php include 'footer.html'; ?>
 </html>
 

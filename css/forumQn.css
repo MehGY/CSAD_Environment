@@ -1,3 +1,4 @@
+.footLink:hover,
 .mouse:hover {
     cursor: pointer;
 }
@@ -6,11 +7,6 @@
 
 .footLink {
     color: white;
-}
-
-.footLink:hover {
-    cursor: pointer;
-    color: #ccc;
 }
 
 /* ---------------------------------------------------------------Nav Bars------------------------------------------------------------------------- */

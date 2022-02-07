@@ -88,10 +88,19 @@
                 <p style="clear: both"></p>
                 <p class="mouse" style="color: dodgerblue">More related tags</p>
             </div>
+            
+            <div class="forumbox">
+                <h4>Other Topics</h4>
+                <a class="mouse" style="color: dodgerblue">Do solar panels still work in the snow?</a><br>
+                <a class="mouse" style="color: dodgerblue">Solar panels in the Sahara Desert?</a><br>
+                <a class="mouse" style="color: dodgerblue">Do NFTs harm the environment?</a><br>
+                <a class="mouse" style="color: dodgerblue">Is beef bad for the environment?</a><br>
+                <a class="mouse" style="color: dodgerblue">How to reduce carbon footprint?</a><br>
+            </div>
         </div>
     </div>
     <?php include 'signIn.php'; ?>
     <?php include 'signUp.php'; ?>
-    </body>
     <?php include 'footer.html'; ?>
+    </body>
 </html>

@@ -11,7 +11,7 @@
     <?php include 'header.html'; ?>
     
     <!-- List of questions  -->
-    <div class="col-sm-6" style="margin-left: 60px; margin-right: 30px">
+    <div class="col-sm-7" style="padding-left: 60px; padding-right: 30px">
         <h2>All Questions</h2>
         <button type="button" onclick="askQn()" class="btn btn-primary" style="float: right">Ask a question</button>
         <p style="clear: both"></p>
@@ -144,7 +144,7 @@
     </div>
     
     <!-- Things on the right hand side  -->
-    <div class="col-sm-4" style="margin-right: 60px;">
+    <div class="col-sm-5" style="padding-right: 90px;">
         <div class="forumbox" style="margin-top: 106px">
             
             <!-- Search Bar  -->
@@ -222,7 +222,7 @@
             }
         }
     </script>
-    </body>
     <?php include 'footer.html'; ?>
+    </body>
 </html>
 
