@@ -1,3 +1,4 @@
+/*----------------------------------------------------index ---------------------------------------------------------------------*/
 body, html {
     background-color: white;
     height: 100%;
@@ -25,9 +26,21 @@ body, html {
     text-align: center;
 }
 
+.newsTitle:hover,
+.forumTitle:hover,
 .footLink:hover,
 .mouse:hover {
     cursor: pointer;
+}
+
+.newsTitle {
+    display: inherit;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    text-align: center;
+    font-family: serif;
 }
 
 /* ------------------------------------------------------Footer------------------------------------------------------------------*/
@@ -39,21 +52,9 @@ body, html {
 /* -------------------------------------------------Gallery---------------------------------------------------------------- */
 
 #crop {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: auto;
-    height: 30%;
-    overflow: hidden;
+    height: 35%;
     object-fit: cover;
-}
-
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
 }
 
 /* Add some shadows to create a card effect */
@@ -61,13 +62,9 @@ body, html {
     display: block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white !important;
-}
-
-#cardDetails {
-    display: inherit;
+    min-height: 350px;
+    border-radius: 10px;
     overflow: hidden;
-    white-space: normal;
-    text-overflow: ellipsis;
 }
 
 /* -------------------------------------------------------------- Hero Image -----------------------------------------------------*/
@@ -299,6 +296,30 @@ hr {
     float: left;
     margin-left: 10px;
     color: hsla(120, 0%, 0%, 0.3);
+}
+
+.forumName {
+    display: inherit;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    float: left;
+}
+
+.forumTitle {
+    display: inherit;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    font-weight: bold; 
+    margin-top: 10px;
+}
+
+.forumDetails {
+    display: inherit;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
 }
 
 .glyphicon-comment,

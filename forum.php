@@ -18,11 +18,11 @@
         
         <!-- Questions (each one starts with class="forumbox") -->
         <div class="forumbox">
-            <p id="cardDetails" style="float: left">Asked by Miguel</p> 
+            <p class="forumName">Asked by Miguel</p> 
             <img src="images/noprofile.jpg" class="forumProfile"> 
             <p class="time">3 hours ago</p> <br>
-            <h3 id="cardDetails" style="font-weight: bold; margin-top: 10px;">Usage of Nuclear Power</h3>
-            <p id="cardDetails">I've heard a lot of mixed responses when asking about nuclear power. Some say it good, some say it bad. What are the good and bad about nuclear power?</p>
+            <h3 class="forumTitle">Usage of Nuclear Power</h3>
+            <p class="forumDetails">I've heard a lot of mixed responses when asking about nuclear power. Some say it good, some say it bad. What are the good and bad about nuclear power?</p>
             <p class="tag">Nuclear</p>
             <p style="clear: both"></p>
             <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">59</span>
@@ -30,11 +30,11 @@
             <span class="glyphicon glyphicon-comment">109</span>
         </div>
         <div class="forumbox">
-            <p id="cardDetails" style="float: left">Asked by Mayazzz</p> 
+            <p class="forumName">Asked by Mayazzz</p> 
             <img src="images/noprofile.jpg" class="forumProfile"> 
             <p class="time">15 hours ago</p> <br>
-            <h3 id="cardDetails" style="font-weight: bold; margin-top: 10px;">Why is Australia's government so bad???</h3>
-            <p id="cardDetails">For years, the government has done nothing to reduce our carbon footprint, overlook coal companies and essentially tax people for being environmentally friendly??? WTF australia</p>
+            <h3 class="forumTitle">Why is Australia's government so bad???</h3>
+            <p class="forumDetails">For years, the government has done nothing to reduce our carbon footprint, overlook coal companies and essentially tax people for being environmentally friendly??? WTF australia</p>
             <p class="tag">Politics</p> <p class="tag">CO2 emissions</p>
             <p style="clear: both"></p>
             <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">209</span>
@@ -42,11 +42,11 @@
             <span class="glyphicon glyphicon-comment">2k</span>
         </div>
         <div class="forumbox">
-            <p id="cardDetails" style="float: left">Asked by Kim</p> 
+            <p class="forumName">Asked by Kim</p> 
             <img src="images/noprofile.jpg" class="forumProfile"> 
             <p class="time">3 days ago</p> <br>
-            <h3 id="cardDetails" style="font-weight: bold; margin-top: 10px;">Are NFTs bad?</h3>
-            <p id="cardDetails">Recently, there has been a lot of debate about these things called NFTs and I'm very confused as to what they are. But I've seen people claiming that NFTs harm the environment. Could someone enlighten me?</p>
+            <h3 class="forumTitle">Are NFTs bad?</h3>
+            <p class="forumDetails">Recently, there has been a lot of debate about these things called NFTs and I'm very confused as to what they are. But I've seen people claiming that NFTs harm the environment. Could someone enlighten me?</p>
             <p class="tag">NFT</p> <p class="tag">Pollution</p>
             <p style="clear: both"></p>
             <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">122</span>
@@ -54,11 +54,11 @@
             <span class="glyphicon glyphicon-comment">1.2k</span>
         </div>
         <div class="forumbox">
-            <p id="cardDetails" style="float: left">Asked by Annon</p> 
+            <p class="forumName">Asked by Annon</p> 
             <img src="images/noprofile.jpg" class="forumProfile"> 
             <p class="time">3 minutes ago</p> <br>
-            <h3 id="cardDetails" style="font-weight: bold; margin-top: 10px;">Dummy Test</h3>
-            <p id="cardDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
+            <h3 class="forumTitle">Dummy Test</h3>
+            <p class="forumDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
             <p class="tag">Charity</p> <p class="tag">Donation</p>
             <p style="clear: both"></p>
             <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">2k</span>
@@ -66,11 +66,11 @@
             <span class="glyphicon glyphicon-comment">1.4k</span>
         </div>
         <div class="forumbox">
-            <p id="cardDetails" style="float: left">Asked by Annon</p> 
+            <p class="forumName">Asked by Annon</p> 
             <img src="images/noprofile.jpg" class="forumProfile"> 
             <p class="time">3 minutes ago</p> <br>
-            <h3 id="cardDetails" style="font-weight: bold; margin-top: 10px;">Dummy Test</h3>
-            <p id="cardDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
+            <h3 class="forumTitle">Dummy Test</h3>
+            <p class="forumDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
             <p class="tag">Charity</p> <p class="tag">Donation</p>
             <p style="clear: both"></p>
             <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">2k</span>
@@ -78,11 +78,11 @@
             <span class="glyphicon glyphicon-comment">1.4k</span>
         </div>
         <div class="forumbox">
-            <p id="cardDetails" style="float: left">Asked by Annon</p> 
+            <p class="forumName">Asked by Annon</p> 
             <img src="images/noprofile.jpg" class="forumProfile"> 
             <p class="time">3 minutes ago</p> <br>
-            <h3 id="cardDetails" style="font-weight: bold; margin-top: 10px;">Dummy Test</h3>
-            <p id="cardDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
+            <h3 class="forumTitle">Dummy Test</h3>
+            <p class="forumDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
             <p class="tag">Charity</p> <p class="tag">Donation</p>
             <p style="clear: both"></p>
             <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">2k</span>
@@ -90,11 +90,11 @@
             <span class="glyphicon glyphicon-comment">1.4k</span>
         </div>
         <div class="forumbox">
-            <p id="cardDetails" style="float: left">Asked by Annon</p> 
+            <p class="forumName">Asked by Annon</p> 
             <img src="images/noprofile.jpg" class="forumProfile"> 
             <p class="time">3 minutes ago</p> <br>
-            <h3 id="cardDetails" style="font-weight: bold; margin-top: 10px;">Dummy Test</h3>
-            <p id="cardDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
+            <h3 class="forumTitle">Dummy Test</h3>
+            <p class="forumDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
             <p class="tag">Charity</p> <p class="tag">Donation</p>
             <p style="clear: both"></p>
             <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">2k</span>
@@ -102,11 +102,11 @@
             <span class="glyphicon glyphicon-comment">1.4k</span>
         </div>
         <div class="forumbox">
-            <p id="cardDetails" style="float: left">Asked by Annon</p> 
+            <p class="forumName">Asked by Annon</p> 
             <img src="images/noprofile.jpg" class="forumProfile"> 
             <p class="time">3 minutes ago</p> <br>
-            <h3 id="cardDetails" style="font-weight: bold; margin-top: 10px;">Dummy Test</h3>
-            <p id="cardDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
+            <h3 class="forumTitle">Dummy Test</h3>
+            <p class="forumDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
             <p class="tag">Charity</p> <p class="tag">Donation</p>
             <p style="clear: both"></p>
             <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">2k</span>
@@ -114,11 +114,11 @@
             <span class="glyphicon glyphicon-comment">1.4k</span>
         </div>
         <div class="forumbox">
-            <p id="cardDetails" style="float: left">Asked by Annon</p> 
+            <p class="forumName">Asked by Annon</p> 
             <img src="images/noprofile.jpg" class="forumProfile"> 
             <p class="time">3 minutes ago</p> <br>
-            <h3 id="cardDetails" style="font-weight: bold; margin-top: 10px;">Dummy Test</h3>
-            <p id="cardDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
+            <h3 class="forumTitle">Dummy Test</h3>
+            <p class="forumDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
             <p class="tag">Charity</p> <p class="tag">Donation</p>
             <p style="clear: both"></p>
             <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">2k</span>
@@ -126,11 +126,11 @@
             <span class="glyphicon glyphicon-comment">1.4k</span>
         </div>
         <div class="forumbox">
-            <p id="cardDetails" style="float: left">Asked by Annon</p> 
+            <p class="forumName">Asked by Annon</p> 
             <img src="images/noprofile.jpg" class="forumProfile"> 
             <p class="time">3 minutes ago</p> <br>
-            <h3 id="cardDetails" style="font-weight: bold; margin-top: 10px;">Dummy Test</h3>
-            <p id="cardDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
+            <h3 class="forumTitle">Dummy Test</h3>
+            <p class="forumDetails">ksjad akdq kqj djw qiqbdv wmhw msd,aiskjd adajdoj dkdqwkd qwdj qwkdjq wd</p>
             <p class="tag">Charity</p> <p class="tag">Donation</p>
             <p style="clear: both"></p>
             <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">2k</span>
