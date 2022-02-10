@@ -29,6 +29,7 @@
     <script>
         // Get the modal
         var modal = document.getElementById('id02');
+        document.getElementById("message").innerHTML = "Please fill in this form to login.";
 
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function(event) {

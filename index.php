@@ -73,6 +73,19 @@
         <?php include 'signUp.php'; ?>
         <?php include 'signIn.php'; ?>
         <?php include 'footer.html'; ?>
+        <script>
+            var loggedIn = false;
+
+            function askQn() {
+                if (loggedIn == false) {
+                    document.getElementById('id02').style.display='block';
+                    document.getElementById("message").innerHTML = "You must login before you can start asking questions.";
+                }
+                else {
+                    window.location.href = 'forumQn.php';
+                }
+            }
+        </script>
     </body>
 </html>
 
