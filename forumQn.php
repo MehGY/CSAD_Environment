@@ -9,7 +9,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </header>
-    <?php include 'header.html'; ?>
+    <?php include 'header.php'; ?>
     <div style="margin-left: 70px; margin-right: 70px; display: block">
         <h1 style="margin-top: 30px">Usage of Nuclear Power</h1>
         <a>Asked 3 hours ago</a> <br>

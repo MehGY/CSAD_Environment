@@ -1,22 +1,25 @@
 <body>
     <div id="id01" class="modal">
         <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal" style="color: white; opacity: 1; font-size: 50px">&times;</span>
-        <form class="modal-content" action="/action_page.php">
+        <form class="modal-content" action="includes/signup.inc.php" method="post">
             <div style="padding-right: 20px; padding-left: 20px">
                 <h1>Sign Up</h1>
                 <p>Please fill in this form to create an account.</p>
                 <hr>
+                <label for="name"><b>Full Name</b></label>
+                <input class="signForm" type="text" placeholder="Full Name" name="name" required>
+                
                 <label for="email"><b>Email</b></label>
                 <input class="signForm" type="text" placeholder="Enter Email" name="email" required>
 
                 <label for="username"><b>Username</b></label>
-                <input class="signForm" type="text" placeholder="Enter Username" name="username" required>
+                <input class="signForm" type="text" placeholder="Enter Username" name="uid" required>
 
                 <label for="psw"><b>Password</b></label>
-                <input class="signForm" type="password" placeholder="Enter Password" name="psw" required>
+                <input class="signForm" type="password" placeholder="Enter Password" name="pwd" required>
 
                 <label for="psw-repeat"><b>Repeat Password</b></label>
-                <input class="signForm" type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                <input class="signForm" type="password" placeholder="Repeat Password" name="pwdrepeat" required>
 
                 <label>
                   <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
@@ -26,10 +29,35 @@
 
                 <div class="clearfix">
                     <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                    <button type="submit" class="signupbtn">Sign Up</button>
+                    <button type="submit" class="signupbtn" name="submit">Sign Up</button>
                 </div>
             </div>
         </form>
+        <?php
+            if(isset($_GET["error"])){
+                if($_GET["error"] == "emptyinput"){
+                    echo "<p>Fill in all fields!</p>";
+                } 
+                else if ($_GET["error"] == "invaliduid"){
+                    echo "<p>Choose a proper username!</p>";
+                } 
+                else if ($_GET["error"] == "invalidemail"){
+                    echo "<p>Choose a proper email!</p>";
+                }
+                else if ($_GET["error"] == "passwordsdontmatch"){
+                    echo "<p>Password do not match!</p>";
+                }
+                else if ($_GET["error"] == "usernametaken"){
+                    echo "<p>Username already taken!</p>";
+                }
+                else if ($_GET["error"] == "stmtfailed"){
+                    echo "<p>Something went wrong, try again!</p>";
+                }
+                else if ($_GET["error"] == "none"){
+                    echo "<p>You have successfully sign up!</p>";
+                }
+            }
+        ?>
     </div>
 
     <script>

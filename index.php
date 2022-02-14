@@ -8,42 +8,42 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </header>
-        <?php include 'header.html'; ?>
+        <?php include 'header.php'; ?>
     
         <!-- Big Hero Image -->
         <div class="hero-image">
           <div class="hero-text">
-            <h1 style="font-size:50px">Save Our Planet</h1>
-            <p>Global warming is getting worse year by year but we can still do something...</p>
+            <h1 style="font-size:50px">Save Our Beaches</h1>
+            <p>Things are getting worse and worse in SG...</p>
             <button type="button">Learn More</button>
           </div>
         </div>
         
         <!-- News Section -->
         <div>
-            <h1 class="title">Recent News</h1>
+            <h1 class="title">News</h1>
             <div class="row" style="padding-right: 50px; padding-left: 50px; margin-right: 0px;">
                 <div class="col-sm-3">
                     <div class="card">
-                        <img id="crop" src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2020/07/23143643/GP1SU5J0_PressMedia.jpg">
+                        <img id="crop" src="https://static.mothership.sg/1/2022/02/east-coast-park-cny-day-1-crowded.jpg">
                         <div style="padding: 0 16px">
-                            <h3 class="newsTitle">Amazon Has Burnt Down Again</h3>
+                            <h3 class="newsTitle">NParks looking into ways to reduce impact of beachgoers on marine creatures</h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="card">
-                        <img id="crop" src="https://i.insider.com/5e5d2aa1fee23d10847a28f8?width=700">
+                        <img id="crop" src="https://static.mothership.sg/1/2022/02/changi-beach-dig.jpg">
                         <div style="padding: 0 16px">
-                            <h3 class="newsTitle">Trump Is An Idiot</h3>
+                            <h3 class="newsTitle">Changi Beach crowded with people digging up sea animals again</h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="card">
-                        <img id="crop" src="https://lp-cms-production.imgix.net/2020-12/shutterstock_223165042.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850">
+                        <img id="crop" src="https://www.straitstimes.com/multimedia/graphics/assets/facebook_images/2022/01/singapore-protect-sea-levels-rise/singapore-protect-sea-levels-rise.jpg?v=1">
                         <div style="padding: 0 16px">
-                            <h3 class="newsTitle">Australia Enforcing Laws Against Coal</h3>
+                            <h3 class="newsTitle">Concerns about rising sea levels</h3>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,6 @@
                     </div>
                 </div>
             </div>
-            <p class='mouse' href='#' style="color: dodgerblue; text-align: center">View more</p>
         </div>
         
         <!-- Forum Discussions -->
