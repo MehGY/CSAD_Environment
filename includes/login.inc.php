@@ -15,6 +15,8 @@ if (isset($_POST["submit"])){
     loginUser($conn,$username, $pwd);
 }
 else{
-    header("location: ../signIn.php");
+    header("location: ../index.php");
     exit();
 }
+
+?>

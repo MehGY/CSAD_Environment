@@ -13,7 +13,7 @@
                 <li><a href="index.php" style="color: white">Home</a></li>
                 <li><a href="forum.php" style="color: white">Forum</a></li>
                 <li><a href="#news" style="color: white">News</a></li>
-                <li><a href="#helpUs" style="color: white">Help Us</a></li>
+                <li><a href="charity.php" style="color: white">#TeamBeaches</a></li>
                 <li><a href="#About" style="color: white">About</a></li>
                 <!--<li><form action="phpSearchOption.php" method="post">
                     Search: <input type="text" name="search">

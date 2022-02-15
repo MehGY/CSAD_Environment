@@ -1,6 +1,6 @@
-/*----------------------------------------------------index ---------------------------------------------------------------------*/
+
 body, html {
-    background-color: white;
+    background-color: #0066cc !important;
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -27,21 +27,18 @@ body, html {
     font-size: 1.5em;
 }
 
-.newsTitle:hover,
-.forumTitle:hover,
 .footLink:hover,
 .mouse:hover {
     cursor: pointer;
 }
 
-.newsTitle {
-    display: inherit;
+.row {
     overflow: hidden;
-    white-space: normal;
-    text-overflow: ellipsis;
-    font-weight: bold;
-    text-align: center;
-    font-family: serif;
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
 }
 
 /* ------------------------------------------------------Footer------------------------------------------------------------------*/
@@ -63,15 +60,16 @@ body, html {
     display: block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
-    min-height: 350px;
     border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
     overflow: hidden;
 }
 
 /* -------------------------------------------------------------- Hero Image -----------------------------------------------------*/
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.sentosa.com.sg/-/media/sentosa/product-listing/product-card/attractions/silosobeachhero.jpg?revision=41744c12-f32e-4a57-8628-93d542cf6a77");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://assets.website-files.com/5f6c5abb4a1622516fb569b6/5f99801f5246d14a76733d4f_cleanups-02.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -110,63 +108,6 @@ body, html {
   background-color: #999;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
-
-/* -------------------------------------------------------- Tabs ----------------------------------------------------------------*/
-
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  background-color: #666666;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #333333;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #333333;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border-top: none;
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
-}
-
-/* Fade in tabs */
-@-webkit-keyframes fadeEffect {
-    from {
-  opacity: 0;
-  }
-    to {
-  opacity: 1;
-  }
-}
-
-@keyframes fadeEffect {
-    from {
-  opacity: 0;
-  }
-    to {
-  opacity: 1;
-  }
 }
 
 /* ---------------------------------------------------------------Nav Bars------------------------------------------------------------------------- */
@@ -275,115 +216,35 @@ hr {
   }
 }
 
-/*--------------------------------------Forum----------------------------------------------*/
+/*--------------------------------------------------------- Forms --------------------------------------------------------------*/
 .forumbox {
-    display: block;
-    overflow: hidden;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: white;
-    padding: 10px;
+    display: inline-block;
+    padding: 15px;
     margin-bottom: 15px;
-}
-
-.forumProfile {
-    height: 3%; 
-    width: auto; 
-    float: left; 
-    margin-left: 5px; 
-    white-space: pre-line;
-}
-
-.time {
-    float: left;
-    margin-left: 10px;
-    color: hsla(120, 0%, 0%, 0.3);
-}
-
-.forumName {
-    display: inherit;
-    overflow: hidden;
-    white-space: normal;
-    text-overflow: ellipsis;
-    float: left;
-}
-
-.forumTitle {
-    display: inherit;
-    overflow: hidden;
-    white-space: normal;
-    text-overflow: ellipsis;
-    font-weight: bold; 
-    margin-top: 10px;
-}
-
-.forumDetails {
-    display: inherit;
-    overflow: hidden;
-    white-space: normal;
-    text-overflow: ellipsis;
-}
-
-.glyphicon-comment,
-.glyphicon-arrow-up,
-.glyphicon-arrow-down {
-    float: right;
-    bottom: 0px;
-    display: inherit;
-}
-
-.tag {
+    width: 100%;
     border: none;
-    border-radius: 5px;
-    background: #99ccff;
-    color: #003366;
-    float: left;
-    margin-right: 10px;
-    padding: 5px;
-    display: inherit;
-    overflow: hidden;
-    white-space: normal;
-    text-overflow: ellipsis;
+    border-radius: 15px;
+    outline: solid 1px black;
 }
 
-.tag:hover {
-    background-color: #0066cc;
+input:focus {
+    outline: solid 1px #ffcc00 !important;
+}
+
+.donateButt {
+    font-size: 1.2em;
+    height: 2.4em;
+    padding: 10px;
+    width: 100%;
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: #04AA6D;
     color: white;
+    border: none;
     cursor: pointer;
+    opacity: 0.9;
 }
 
-#filters {
-    display: block;
-    overflow: hidden;
-    background-color: #99ccff;
-    border-radius: 10px;
-    color: white;
-    margin-bottom: 10px;
+.donateButt:hover {
+    opacity: 1;
 }
-
-.pageNum {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 10px;
-    float: left;
-    border: solid #cccccc 1px;
-    border-radius: 5px;
-}
-
-.pageNum:hover {
-    background-color: #999;
-    cursor: pointer;
-}
-
-#currentPage {
-    font-weight: bold;
-    color: #0066cc;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 10px;
-    float: left;
-    cursor: default;
-    background-color: #ccccff;
-    border: solid #cccccc 1px;
-    border-radius: 5px;
-}
-
