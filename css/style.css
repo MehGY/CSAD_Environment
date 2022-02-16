@@ -63,9 +63,17 @@ body, html {
     display: block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
-    min-height: 350px;
     border-radius: 10px;
     overflow: hidden;
+}
+
+.row {
+    overflow: hidden;
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
 }
 
 /* -------------------------------------------------------------- Hero Image -----------------------------------------------------*/
@@ -110,63 +118,6 @@ body, html {
   background-color: #999;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
-
-/* -------------------------------------------------------- Tabs ----------------------------------------------------------------*/
-
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  background-color: #666666;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #333333;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #333333;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border-top: none;
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
-}
-
-/* Fade in tabs */
-@-webkit-keyframes fadeEffect {
-    from {
-  opacity: 0;
-  }
-    to {
-  opacity: 1;
-  }
-}
-
-@keyframes fadeEffect {
-    from {
-  opacity: 0;
-  }
-    to {
-  opacity: 1;
-  }
 }
 
 /* ---------------------------------------------------------------Nav Bars------------------------------------------------------------------------- */
@@ -385,5 +336,47 @@ hr {
     background-color: #ccccff;
     border: solid #cccccc 1px;
     border-radius: 5px;
+}
+
+.volForms {
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    outline: solid 1px black;
+}
+
+input:focus {
+    outline: solid 1px #ffcc00 !important;
+}
+
+.donateButt {
+    font-size: 1.2em;
+    height: 2.4em;
+    padding: 10px;
+    width: 100%;
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.donateButt:hover {
+    opacity: 1;
+}
+
+.donationImg {
+    width: auto;
+    height: 32%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
 }
 

@@ -5,6 +5,7 @@
 <nav class="navbar navbar-default" style="background-color: #009966; margin: 0px; border: none; border-radius: 0px">
     <div class="container-fluid">
         <div class="navbar-header">
+            <img class="navbar-brand" src="images/sigil.png">
             <a class="navbar-brand" href="#" style="color: white">CSAD</a>
         </div>
         <ul class="nav navbar-nav">
@@ -12,7 +13,7 @@
             <li><a href="forum.php" style="color: white">Forum</a></li>
             <li><a href="#news" style="color: white">News</a></li>
             <li><a href="charity.php" style="color: white">#TeamBeaches</a></li>
-            <li><a href="#About" style="color: white">About</a></li>
+            <li><a href="about.php" style="color: white">About Us</a></li>
             <li><a href="donation.php" style="color: white">Donations</a></li>
             <!--<li><form action="phpSearchOption.php" method="post">
                 Search: <input type="text" name="search">

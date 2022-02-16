@@ -6,11 +6,11 @@
                 <h1>Sign In</h1>
                 <p id="message">Please fill in this form to login.</p>
                 <hr>
-                <label for="email/username"><b>Email or Username</b></label>
-                <input class="signForm" type="text" placeholder="Enter Email/Username" name="uid" required>
+                <label for="email/username"><b>Username</b></label>
+                <input class="signForm" type="text" placeholder="Username" name="uid" required>
 
                 <label for="psw"><b>Password</b></label>
-                <input class="signForm" type="password" placeholder="Enter Password" name="pwd" required>
+                <input class="signForm" type="password" placeholder="Password" name="pwd" required>
 
                 <label>
                   <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me

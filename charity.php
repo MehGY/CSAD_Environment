@@ -106,8 +106,8 @@
 
             function askQn() {
                 if (loggedIn == false) {
+                    alert('You need to log in first.';
                     document.getElementById('id02').style.display='block';
-                    document.getElementById("message").innerHTML = "You must login before you can start asking questions.";
                 }
                 else {
                     window.location.href = 'forumQn.php';

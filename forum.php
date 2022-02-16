@@ -16,7 +16,7 @@
             <h2>All Questions</h2>
             <button type="button" onclick="askQn()" class="btn btn-primary" style="float: right">Ask a question</button>
             <p style="clear: both"></p>
-
+            
             <!-- Questions (each one starts with class="forumbox") -->
             <div class="forumbox">
                 <p class="forumName">Asked by Miguel</p> 
@@ -215,8 +215,8 @@
 
             function askQn() {
                 if (loggedIn == false) {
+                    alert('You need to log in first.';
                     document.getElementById('id02').style.display='block';
-                    document.getElementById("message").innerHTML = "You must login before you can start asking questions.";
                 }
                 else {
                     window.location.href = 'forumQn.php';
