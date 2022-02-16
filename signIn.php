@@ -30,7 +30,7 @@
                     echo "<p>Fill in all fields!</p>";
                 } 
                 else if ($_GET["error"] == "wronglogin"){
-                    echo "<p>Incorrect login credential!</p>";
+                    echo "<script>alert('Wrong username or password. Please try again.')</script>";
                 } 
             }
         ?>

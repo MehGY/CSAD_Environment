@@ -39,22 +39,22 @@
                     echo "<p>Fill in all fields!</p>";
                 } 
                 else if ($_GET["error"] == "invaliduid"){
-                    echo "<p>Choose a proper username!</p>";
+                    echo "<script>alert('Invalid username.')</script>";
                 } 
                 else if ($_GET["error"] == "invalidemail"){
-                    echo "<p>Choose a proper email!</p>";
+                    echo "<script>alert('Invalid email.')</script>";
                 }
                 else if ($_GET["error"] == "passwordsdontmatch"){
-                    echo "<p>Password do not match!</p>";
+                    echo "<script>alert('Passwords do not match.')</script>";
                 }
                 else if ($_GET["error"] == "usernametaken"){
-                    echo "<p>Username already taken!</p>";
+                    echo "<script>alert('Username taken already. Please choose another name.')</script>";
                 }
                 else if ($_GET["error"] == "stmtfailed"){
-                    echo "<p>Something went wrong, try again!</p>";
+                    echo "<script>alert('Something went wrong. Please try again.')</script>";
                 }
                 else if ($_GET["error"] == "none"){
-                    echo "<p>You have successfully sign up!</p>";
+                    echo "<script>alert('You have successfully signed up!')</script>";
                 }
             }
         ?>

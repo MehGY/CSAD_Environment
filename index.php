@@ -1,4 +1,4 @@
-<html lang="en">
+<html>
     <header>
         <title>Home</title>
         <meta charset="utf-8">
@@ -9,6 +9,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </header>
+    <body id="top">
         <?php include 'header.php'; ?>
     
         <!-- Big Hero Image -->
@@ -16,7 +17,7 @@
           <div class="hero-text">
             <h1 style="font-size:50px">Save Our Beaches</h1>
             <p>Things are getting worse and worse in SG...</p>
-            <button type="button">Learn More</button>
+            <button type="button" onclick="window.location.href = 'charity.php';">Learn More</button>
           </div>
         </div>
         
@@ -28,7 +29,7 @@
                     <div class="card">
                         <img id="crop" src="https://static.mothership.sg/1/2022/02/east-coast-park-cny-day-1-crowded.jpg">
                         <div style="padding: 0 16px">
-                            <h3 class="newsTitle">NParks looking into ways to reduce impact of beachgoers on marine creatures</h3>
+                            <a href="newsInfo.php"><h3 class="newsTitle">NParks looking into ways to reduce impact of beachgoers on marine creatures</h3></a>
                         </div>
                     </div>
                 </div>
@@ -36,7 +37,7 @@
                     <div class="card">
                         <img id="crop" src="https://static.mothership.sg/1/2022/02/changi-beach-dig.jpg">
                         <div style="padding: 0 16px">
-                            <h3 class="newsTitle">Changi Beach crowded with people digging up sea animals again</h3>
+                            <a href="newsInfo.php"><h3 class="newsTitle">Changi Beach crowded with people digging up sea animals again</h3></a>
                         </div>
                     </div>
                 </div>
@@ -44,7 +45,7 @@
                     <div class="card">
                         <img id="crop" src="https://www.straitstimes.com/multimedia/graphics/assets/facebook_images/2022/01/singapore-protect-sea-levels-rise/singapore-protect-sea-levels-rise.jpg?v=1">
                         <div style="padding: 0 16px">
-                            <h3 class="newsTitle">Concerns about rising sea levels</h3>
+                            <a href="newsInfo.php"><h3 class="newsTitle">Concerns about rising sea levels</h3></a>
                         </div>
                     </div>
                 </div>
@@ -52,7 +53,7 @@
                     <div class="card">
                         <img id="crop" src="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production+Library/28-07-2020_Unsplash_face-mask.jpg/image1170x530cropped.jpg">
                         <div style="padding: 0 16px">
-                            <h3 class="newsTitle">Healthcare waste from COVID threatens environment</h3>
+                            <a href="newsInfo.php"><h3 class="newsTitle">Healthcare waste from COVID threatens environment</h3></a>
                         </div>
                     </div>
                 </div>

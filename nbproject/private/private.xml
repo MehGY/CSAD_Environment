@@ -3,7 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp64/www/CSAD_Environment/index.php</file>
+            <file>file:/C:/wamp64/www/CSAD_Environment/signUp.php</file>
+            <file>file:/C:/wamp64/www/CSAD_Environment/signIn.php</file>
+            <file>file:/C:/wamp64/www/CSAD_Environment/charity.php</file>
+            <file>file:/C:/wamp64/www/CSAD_Environment/donation.php</file>
+            <file>file:/C:/wamp64/www/CSAD_Environment/css/donation.css</file>
+            <file>file:/C:/wamp64/www/CSAD_Environment/includes/signup.inc.php</file>
         </group>
     </open-files>
 </project-private>

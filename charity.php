@@ -8,12 +8,14 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </header>
+    <body id="top">
         <?php include 'header.php'; ?>
     
         <!-- Big Hero Image -->
         <div class="hero-image">
           <div class="hero-text">
-            <h1 style="font-size:50px">Save Our Beaches</h1>
+              <h1 class="title" style="color: white">Save Our Beaches</h1>
+            <p class="details" style="color: white">Take action with #TeamBeaches</p>
           </div>
         </div>
         
@@ -75,15 +77,8 @@
                     <div class="card">
                         <h2 class="title">DONATE</h2>
                         <p class="details">For every $1, there is 1kg less of trash in our beaches</p>
-                        <form>
-                            <label><b>Amount of money</b></label>
-                            <input class="forumbox" type="text" placeholder="Amount" required>
-                            <label><b>Name</b></label>
-                            <input class="forumbox" type="text" placeholder="Name" required>
-                            <label><b>Email</b></label>
-                            <input class="forumbox" type="text" placeholder="Email" required>
-                            <button class="donateButt center-block" type="submit">Next</button>
-                        </form>
+                        <img class="donationImg center-block" src="https://cdn.statically.io/img/blog.repurpose.global/f=auto%2Cq=80/wp-content/uploads/2019/11/hb-cleanup10-0604_-2.jpg">
+                        <button class="donateButt center-block" style="margin-bottom: 0.7em;" onclick="window.location.href = 'donation.php';">Click to Donate</button>
                     </div>
                 </div>
                 <div class="col-sm-6">

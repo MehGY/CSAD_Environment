@@ -57,7 +57,7 @@ function uidExists($conn, $username, $email) {
     
     $resultData = mysqli_stmt_get_result($stmt);
     
-    if($row = mysqli_fetch_assoc($resultData)){
+    if($row == mysqli_fetch_assoc($resultData)){
         return $row;
     }
     else{
@@ -72,7 +72,7 @@ function createUser($conn, $name, $email, $username, $pwd) {
     $sql = "INSERT INTO users (usersName, usersEmail, usersUid, usersPwd) VALUES (?, ?, ?, ?);";
     $stmt = mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt, $sql)){
-        header("location: ../signup.php?error=stmtfailed");
+        header("location: ../index.php?error=stmtfailed");
         exit();
     }
     
@@ -81,7 +81,7 @@ function createUser($conn, $name, $email, $username, $pwd) {
     mysqli_stmt_bind_param($stmt, "ssss", $name, $email, $username, $hashedPwd);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
-    header("location: ../signup.php?error=none");
+    header("location: ../index.php?error=none");
     exit();
 }
 
@@ -97,24 +97,49 @@ function emptyInputLogin($username, $pwd){
 }
 
 function loginUser($conn,$username, $pwd){
-    $uidExists($conn, $username, $username);
+    $userExists = uidExists($conn, $username, $username);
     
-    if ($uidExists === false) {
-        header("location: ../login.php?error=wronglogin");
+    if ($userExists === false) {
+        header("location: ../index.php?error=wronglogin");
         exit();
     }
     
-    $hashedPwd= $uidExists["usersPwd"];
+    $hashedPwd= $userExists["usersPwd"];
     $checkedPwd = password_verify($pwd, $hashedPwd);
     
     if ($checkedPwd === false) {
-        header("location: ../login.php?error=wronglogin");
+        header("location: ../index.php?error=wronglogin");
     }
     else if ($checkedPwd === true){
         session_start();
-        $_SESSION["userid"] = $uidExists["usersId"];
-        $_SESSION["useruid"] = $uidExists["usersUid"];
+        $_SESSION["userid"] = $userExists["usersId"];
+        $_SESSION["useruid"] = $userExists["usersUid"];
         header("location:../index.php");
         exit();
     }
+}
+
+function createFeedback($conn, $fbname, $fbemail, $fbtitles, $Details) {
+    $sql = "INSERT INTO feedback (feedbackName, feedbackEmail, feedbackTitle, Details) VALUES (?, ?, ?, ?);";
+    $stmt = mysqli_stmt_init($conn);
+    if (!mysqli_stmt_prepare($stmt, $sql)) {
+        header("location: ../feedback.php?error=stmtfailed");
+        exit();
+    }
+    mysqli_stmt_bind_param($stmt, "ssss", $fbname, $fbemail, $fbtitles, $Details);
+    mysqli_stmt_execute($stmt);
+    mysqli_stmt_close($stmt);
+    header("location: ../feedback.php?error=none");
+    exit();
+}
+
+function emptyInput($fbtitles, $Details){
+    $result;
+    if (empty($fbtitles) || empty($Details)) {
+        $result = true;
+    } else {
+        $result = false;
+    }
+    return $result;
+
 }
