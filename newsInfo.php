@@ -60,7 +60,14 @@
                     <input type="radio" id="star2" name="rate" value="2" />
                     <label for="star2" title="text">2 stars</label>
                     <input type="radio" id="star1" name="rate" value="1" />
-                    <label for="star1" title="text">1 star</label>
+                    <label for="star1" title="text">1 star</label> <br>
+                    <?php
+                        if (isset($_GET["error"])) {
+                            if ($_GET["error"] == "emptyinput1") {
+                                echo "<p>Please rate before submitting!</p>";
+                            }
+                        }
+                    ?>
                 </div>
             </div>
             

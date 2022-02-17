@@ -22,7 +22,7 @@
                 <h2 class="title" style="color:white; text-align: left">Where we work</h2>
                 <div class="card">
                     <p class="details">When this website was made, we were studying at Singapore Polytechnic. This website was made as a group project.</p>
-                    <button class="butt">Contact Us</button>
+                    <button class="butt" onclick="window.location.href = 'feedback.php';">Contact Us</button>
                 </div>
             </div>
             <div class="col-sm-7">
