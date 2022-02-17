@@ -6,25 +6,20 @@
     <div class="container-fluid">
         <div class="navbar-header">
             <img class="navbar-brand" src="images/sigil.png">
-            <a class="navbar-brand" href="#" style="color: white">CSAD</a>
+            <a class="navbar-brand" href="index.php" style="color: white">CSAD</a>
         </div>
         <ul class="nav navbar-nav">
             <li><a href="index.php" style="color: white">Home</a></li>
             <li><a href="forum.php" style="color: white">Forum</a></li>
-            <li><a href="#news" style="color: white">News</a></li>
             <li><a href="charity.php" style="color: white">#TeamBeaches</a></li>
             <li><a href="about.php" style="color: white">About Us</a></li>
             <li><a href="donation.php" style="color: white">Donations</a></li>
-            <!--<li><form action="phpSearchOption.php" method="post">
-                Search: <input type="text" name="search">
-                <select name="selectSearch">
-                    <option value="usersUid">Username</option>
-                    <option value="age">Age</option>
-                    <option value="gender">Gender</option>
-                </select>
-                <input type="submit">
+            <li><form action="phpSearchOption.php" method="post" style="color: white; margin-top: 0.9em;">
+                    Search: 
+                    <input type="text" name="search" style="border-radius: 10px; color: black">
+                    <input type="submit" style="border-radius: 5px; color: black">
                 </form>
-            </li>-->
+            </li>
         </ul>
         <ul class="nav navbar-nav" style="float: right">
             <?php

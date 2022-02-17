@@ -1,4 +1,6 @@
-.glyphicon {
+.glyphicon-picture,
+.glyphicon-log-out,
+.glyphicon-trash {
     font-size: 2em;
     float: left;
     margin-right: 0.5em;

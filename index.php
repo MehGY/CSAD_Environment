@@ -70,9 +70,9 @@
                     <p class="forumName">Asked by Miguel</p> 
                     <img src="images/noprofile.jpg" class="forumProfile"> 
                     <p class="time">3 hours ago</p> <br>
-                    <h3 class="forumTitle">Usage of Nuclear Power</h3>
-                    <p class="forumDetails">I've heard a lot of mixed responses when asking about nuclear power. Some say it good, some say it bad. What are the good and bad about nuclear power?</p>
-                    <p class="tag">Nuclear</p>
+                    <h3 class="forumTitle">Taiwan Whale Incident</h3>
+                    <p class="forumDetails">You know the incident in Taiwan where a huge whale washed up on shore and exploded?</p>
+                    <p class="tag">Marine Animals</p>
                     <p style="clear: both"></p>
                     <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">59</span>
                     <span class="glyphicon glyphicon-arrow-down" style="margin-left: 10px">-3</span>
@@ -82,9 +82,9 @@
                     <p class="forumName">Asked by Mayazzz</p> 
                     <img src="images/noprofile.jpg" class="forumProfile"> 
                     <p class="time">15 hours ago</p> <br>
-                    <h3 class="forumTitle">Why is Australia's government so bad???</h3>
-                    <p class="forumDetails">For years, the government has done nothing to reduce our carbon footprint, overlook coal companies and essentially tax people for being environmentally friendly??? WTF australia</p>
-                    <p class="tag">Politics</p> <p class="tag">CO2 emissions</p>
+                    <h3 class="forumTitle">Fishing not allowed?</h3>
+                    <p class="forumDetails">There are places in SG where people are not allowed to fish but I don't really understand why? Can someone explain to me?</p>
+                    <p class="tag">Fishing</p>
                     <p style="clear: both"></p>
                     <span class="glyphicon glyphicon-arrow-up" style="margin-left: 10px">209</span>
                     <span class="glyphicon glyphicon-arrow-down" style="margin-left: 10px">-46</span>
@@ -129,7 +129,7 @@
                             <input class="volForms" type="text" placeholder="Email" required>
                             <label><b>Phone</b></label>
                             <input class="volForms" type="text" placeholder="Phone" required>
-                            <button class="donateButt center-block" type="submit">Next</button>
+                            <button class="donateButt center-block" type="submit" onclick="volunteer()">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -149,6 +149,10 @@
                 else {
                     window.location.href = 'forumQn.php';
                 }
+            }
+            
+            function volunteer() {
+                alert('Thank You For Signing Up With Us!');
             }
         </script>
     </body>

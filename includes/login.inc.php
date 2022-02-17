@@ -6,7 +6,7 @@ if (isset($_POST["submit"])){
     
     require_once 'dbh.inc.php';
     require_once 'functions.inc.php';
-    
+    setcookie('useruid', $_POST["usersUid"], time() +(86400*15), "/");
     if(emptyInputLogin($username, $pwd) !== false){
         header("location: ../index.php?error=emptyinput");
         exit();
